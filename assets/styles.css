@@ -1851,4 +1851,4 @@ footer{view-transition-name:mt-foot}
 /* STAN-BUD: logo z czarnym napisem ginie na przezroczystym pasku nad zdjęciem - nad hero jasny wariant, po scrollu (nav-solid) oryginał */
 .brand-logo-light{display:none}
 .nav:not(.nav-solid) .brand-logo-light{display:block}
-.nav:not(.nav-solid) .brand-logo-dark{display:none}
+.nav:not(.nav-solid) .brand-logo:not(.brand-logo-light){display:none}
